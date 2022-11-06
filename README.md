@@ -21,5 +21,5 @@ You can install the current version of `twoPhaseGAS` from
 [GitHub](https://github.com) using (`devtools` required):
 
 ``` r
-devtools::install_github("egosv/reportRx", ref="main")
+devtools::install_github("egosv/twoPhaseGAS", ref="main")
 ```

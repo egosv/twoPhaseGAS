@@ -1,0 +1,25 @@
+
+## twoPhaseGAS
+
+Two-Phase Genetic Association Study design and analysis with missing
+covariates by design
+
+## Description
+
+Provides functionality for selecting and analyzing individuals in
+two-phase genetic association studies. Phase 1 data usually come from
+GWAS results and we assume phase 2 genetic data will be part of a
+targeted genome sequencing/fine-mapping study. The package assists in
+selecting a subset of individuals that will be sequenced for phase 2.
+Once phase 2 data have been collected, the package implements methods to
+analyze phase 1 and 2 data together using semi-parametric regression
+models.
+
+## Installation
+
+You can install the current version of `twoPhaseGAS` from
+[GitHub](https://github.com) using (`devtools` required):
+
+``` r
+devtools::install_github("egosv/reportRx", ref="main")
+```

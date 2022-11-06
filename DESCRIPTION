@@ -1,0 +1,25 @@
+Package: twoPhaseGAS
+Type: Package
+Title: Two-Phase Genetic Association Study design and analysis with
+       missing covariates by design
+Version: 1.08
+Date: 2021-11-01
+Author: Osvaldo Espin-Garcia <osvaldo.espingarcia@utoronto.ca>,
+    Apostolos Dimitromanolakis <apostolis@live.ca>, 
+    Shelley Bull <bull@lunenfeld.ca>
+Maintainer: Osvaldo Espin-Garcia <osvaldo.espingarcia@utoronto.ca>
+Description: Provides functionality for selecting and analyzing individuals in 
+             two-phase genetic association studies. Phase 1 data usually come 
+             from GWAS results and we assume phase 2 genetic data will be part 
+             of a targeted genome sequencing / fine-mapping study. 
+             The package assists in selecting a subset of individuals that 
+             will be sequenced for phase 2. Once phase 2 data have been collected, 
+             the package implements methods to analyze phase 1 and 2 data 
+             together using semi-parametric regression models.
+License: GPL (>= 2)
+Depends: R (>= 2.15.2), stats, MASS, data.table, Matrix, dfoptim, nloptr, enrichwith
+VignetteBuilder: knitr
+RoxygenNote: 7.2.1
+Suggests: knitr, testthat, rmarkdown, gplots
+Encoding: UTF-8
+Repository: CRAN
